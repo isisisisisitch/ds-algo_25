@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a16a248f-2385-428d-91c6-04345c5920af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_05_tree/CheckCompletenessOfBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_05_tree/InvertBinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_05_tree/IsBalancedTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_05_tree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avl/AVLTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avl/BinarySearchTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avl/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avl/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avl/file/Files.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avl/printer/BinaryTreeInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avl/printer/BinaryTrees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avl/printer/InorderPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avl/printer/LevelOrderPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avl/printer/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avl/printer/Strings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_07_avl/AVLTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avl/AVLTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_07_avl/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avl/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_07_avl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_07_avl/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +39,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -193,8 +182,16 @@
       <workItem from="1726097326959" duration="8577000" />
       <workItem from="1726515941676" duration="4620000" />
       <workItem from="1727300329726" duration="8309000" />
-      <workItem from="1727726159586" duration="7797000" />
+      <workItem from="1727726159586" duration="15863000" />
     </task>
+    <task id="LOCAL-00001" summary="added avl">
+      <created>1727756604179</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727756604179</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +207,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added avl" />
+    <option name="LAST_COMMIT_MESSAGE" value="added avl" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
