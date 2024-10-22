@@ -20,5 +20,16 @@ public abstract class Graph<V, E> {
 
     public abstract void removeEdge(V fromVertex, V toVertex);
 
+    public abstract void bfs(V begin);
 
+    public abstract void bfs(V begin, VertexVisitor<V> visitor);
+
+    public abstract void dfs(V begin);
+
+    public abstract void dfs(V begin, VertexVisitor<V> visitor);
+
+    public abstract static class VertexVisitor<V> {
+
+        public abstract boolean visit(V val);
+    }
 }

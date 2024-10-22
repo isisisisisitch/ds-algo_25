@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a16a248f-2385-428d-91c6-04345c5920af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Graph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/ListGraph.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Graph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/ListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/ListGraph.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +42,9 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ca.bytetube._09_graph" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="ca.bytetube._00_leetcode._02_list" />
       <recent name="ca.bytetube._03_linkedlist.doubly" />
@@ -185,7 +188,8 @@
       <workItem from="1727726159586" duration="16304000" />
       <workItem from="1728511753702" duration="2918000" />
       <workItem from="1728522260761" duration="4000" />
-      <workItem from="1729112123689" duration="6665000" />
+      <workItem from="1729112123689" duration="7355000" />
+      <workItem from="1729553311786" duration="7871000" />
     </task>
     <task id="LOCAL-00001" summary="added avl">
       <created>1727756604179</created>
@@ -215,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729112169467</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added graph build">
+      <created>1729131886431</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729131886431</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +250,8 @@
     <MESSAGE value="added avl2" />
     <MESSAGE value="added Monotonic Queue" />
     <MESSAGE value="added binary heap" />
-    <option name="LAST_COMMIT_MESSAGE" value="added binary heap" />
+    <MESSAGE value="added graph build" />
+    <option name="LAST_COMMIT_MESSAGE" value="added graph build" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -258,11 +270,6 @@
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_00_leetcode/_02_list/DivideList.java</url>
           <line>12</line>
           <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ca/bytetube/_09_graph/Main.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
