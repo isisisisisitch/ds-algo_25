@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a16a248f-2385-428d-91c6-04345c5920af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/MinHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/UnionFind.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Graph.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/ListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/ListGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,28 +37,29 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ca/bytetube" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ca/bytetube/_09_graph" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="ca.bytetube._09_graph" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/bytetube/_09_graph" />
+      <recent name="$PROJECT_DIR$/src/ca/bytetube" />
+      <recent name="$PROJECT_DIR$/src/ca/bytetube/_07_avl" />
+      <recent name="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode" />
+      <recent name="$PROJECT_DIR$/src/ca/bytetube/_06_tree" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ca.bytetube._09_graph" />
       <recent name="ca.bytetube._00_leetcode._02_list" />
       <recent name="ca.bytetube._03_linkedlist.doubly" />
       <recent name="ca.bytetube._03_linkedlist.singly" />
       <recent name="ca.bytetube._03_linkedlist" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/ca/bytetube" />
-      <recent name="$PROJECT_DIR$/src/ca/bytetube/_07_avl" />
-      <recent name="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode" />
-      <recent name="$PROJECT_DIR$/src/ca/bytetube/_06_tree" />
-      <recent name="$PROJECT_DIR$/src/ca/bytetube/_05_queue" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="ca.bytetube._09_graph" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -189,7 +192,8 @@
       <workItem from="1728511753702" duration="2918000" />
       <workItem from="1728522260761" duration="4000" />
       <workItem from="1729112123689" duration="7355000" />
-      <workItem from="1729553311786" duration="7871000" />
+      <workItem from="1729553311786" duration="8691000" />
+      <workItem from="1730145191631" duration="968000" />
     </task>
     <task id="LOCAL-00001" summary="added avl">
       <created>1727756604179</created>
@@ -226,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1729131886431</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added graph bfs &amp; dfs">
+      <created>1729563887468</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1729563887468</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +262,8 @@
     <MESSAGE value="added Monotonic Queue" />
     <MESSAGE value="added binary heap" />
     <MESSAGE value="added graph build" />
-    <option name="LAST_COMMIT_MESSAGE" value="added graph build" />
+    <MESSAGE value="added graph bfs &amp; dfs" />
+    <option name="LAST_COMMIT_MESSAGE" value="added graph bfs &amp; dfs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
