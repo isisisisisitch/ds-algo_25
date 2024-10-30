@@ -8,6 +8,9 @@ public abstract class Graph<V, E> {
     public Graph() {
     }
 
+    public Graph(WeightManager<E> weightManager) {
+        this.weightManager = weightManager;
+    }
 
     public abstract int verticesSize();
 

@@ -13,6 +13,10 @@ public class ListGraph<V, E> extends Graph<V, E> {
     public ListGraph() {
     }
 
+    public ListGraph(WeightManager<E> weightManager) {
+        super(weightManager);
+    }
+
     private static class Vertex<V, E> {
         V value;
         Set<Edge<V, E>> inEdges = new HashSet<>();
@@ -320,7 +324,7 @@ public class ListGraph<V, E> extends Graph<V, E> {
     @Override
     Set<EdgeInfo<V, E>> mst() {
 
-        return kruskal();
+        return prim();
     }
 
     private Set<EdgeInfo<V, E>> prim() {
