@@ -327,6 +327,71 @@ public class ListGraph<V, E> extends Graph<V, E> {
         return prim();
     }
 
+
+    @Override
+    public Map<V, E> shortestPath(V begin) {
+        Vertex<V, E> beginVertex = vertices.get(begin);
+        if (beginVertex == null) return null;
+        /**
+         * Map<V,E> paths = new HashMap<>();
+         *         paths.put("B",10);
+         *         paths.put("C",50);
+         *         paths.put("D",30);
+         *         需要从paths中找到weight最小的，准备起飞的点，第一次找到B点
+         *         如果我们继续把B点留在map中，可能会被重复选，
+         *         因此我们需要再增加一个map，用来存储已经起飞的顶点信息
+         */
+
+        Map<Vertex<V, E>, E> paths = new HashMap<>();//red
+        Map<V, E> selectedPaths = new HashMap<>();//green
+
+        //1.初始化paths：将B,D,E放入到paths中
+        for (Edge<V, E> edge : beginVertex.outEdges) {
+            paths.put(edge.to, edge.weight);
+        }
+
+        while (!paths.isEmpty()) {
+            Map.Entry<Vertex<V, E>, E> minEntry = getMinPath(paths);
+            Vertex<V, E> minVertex = minEntry.getKey();
+            E minWeight = minEntry.getValue();
+            selectedPaths.put(minVertex.value, minWeight);//B点起飞
+            paths.remove(minVertex);
+
+            //Relaxation
+            //对起飞点所有的outEdges所对应的顶点到达起点的weight值，计算更新后weight和之前weight的大小关系
+            //如果newWeight < oldWeight,说明找到了A点到达其他顶点的更小的路径走法，则更新path
+            //否则，不更新
+            for (Edge<V, E> edge : minVertex.outEdges) {
+                //计算newWeight
+                E newWeight = weightManager.add(minEntry.getValue(), edge.weight);
+
+                //计算oldWeight
+                E oldWeight = paths.get(edge.to);
+                if (oldWeight == null || weightManager.compare(newWeight, oldWeight) < 0) {
+                    paths.put(edge.to, newWeight);
+                }
+
+            }
+        }
+
+
+        return selectedPaths;
+    }
+
+
+    private Map.Entry<Vertex<V, E>, E> getMinPath(Map<Vertex<V, E>, E> paths) {
+        Iterator<Map.Entry<Vertex<V, E>, E>> iterator = paths.entrySet().iterator();
+        Map.Entry<Vertex<V, E>, E> minEntry = iterator.next();
+        while (iterator.hasNext()) {
+            Map.Entry<Vertex<V, E>, E> nextEntry = iterator.next();
+            if (weightManager.compare(nextEntry.getValue(), minEntry.getValue()) < 0) {
+                minEntry = nextEntry;
+            }
+        }
+
+        return minEntry;
+    }
+
     private Set<EdgeInfo<V, E>> prim() {
         //A mst边集
         Set<EdgeInfo<V, E>> edgeInfos = new HashSet<>();
@@ -352,8 +417,23 @@ public class ListGraph<V, E> extends Graph<V, E> {
     }
 
     private Set<EdgeInfo<V, E>> kruskal() {
+        Set<EdgeInfo<V, E>> edgeInfos = new HashSet<>();
+        UnionFind<Vertex<V, E>> uf = new UnionFind<>();
+        MinHeap<Edge<V, E>> minHeap = new MinHeap<>(edges, edgeComparator);
 
-        return null;
+        vertices.forEach((V v, Vertex<V, E> vertex) -> {
+            uf.makeSet(vertex);
+        });
+
+        while (!minHeap.isEmpty() && edgeInfos.size() < vertices.size() - 1) {
+            Edge<V, E> edge = minHeap.remove();
+            if (uf.isSame(edge.to, edge.from)) continue;
+            edgeInfos.add(edge.info());
+            uf.union(edge.from, edge.to);
+        }
+
+
+        return edgeInfos;
     }
 
 }

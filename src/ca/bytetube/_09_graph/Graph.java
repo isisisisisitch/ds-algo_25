@@ -1,6 +1,7 @@
 package ca.bytetube._09_graph;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 public abstract class Graph<V, E> {
@@ -37,6 +38,8 @@ public abstract class Graph<V, E> {
     abstract List<V> topologicalSort(V begin);
 
     abstract Set<EdgeInfo<V, E>> mst();
+
+    public abstract Map<V,E> shortestPath(V begin);
 
 
     public static class EdgeInfo<V, E> {

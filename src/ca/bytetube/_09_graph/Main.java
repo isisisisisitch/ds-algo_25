@@ -1,11 +1,12 @@
 package ca.bytetube._09_graph;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
-        test4();
+        test5();
 //        Graph<String, Integer> graph = new ListGraph<>();
 //        graph.addEdge("v1", "v0", 9);
 //        graph.addEdge("v1", "v2", 3);
@@ -22,8 +23,14 @@ public class Main {
 //        });
     }
 
+    public static void test5() {
+        Graph<Object, Double> directGraph = directGraph(Data.SP);
+        Map<Object, Double> paths = directGraph.shortestPath("A");
+        System.out.println(paths);
+    }
+
     public static void test4() {
-        Graph<Object, Double> unDirectGraph = unDirectGraph(Data.MST_02);
+        Graph<Object, Double> unDirectGraph = unDirectGraph(Data.MST_01);
         Set<Graph.EdgeInfo<Object, Double>> mst = unDirectGraph.mst();
         for (Graph.EdgeInfo<Object, Double> ele : mst) {
             System.out.println(ele);
