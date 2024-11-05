@@ -6,7 +6,7 @@ import java.util.Set;
 
 public class Main {
     public static void main(String[] args) {
-        test5();
+        test6();
 //        Graph<String, Integer> graph = new ListGraph<>();
 //        graph.addEdge("v1", "v0", 9);
 //        graph.addEdge("v1", "v2", 3);
@@ -23,10 +23,16 @@ public class Main {
 //        });
     }
 
+    public static void test6() {
+        Graph<Object, Double> directGraph = directGraph(Data.BF_SP);
+        Map<Object, Map<Object, Graph.PathInfo<Object, Double>>> map = directGraph.shortestPath();
+        System.out.println(map);
+    }
+
     public static void test5() {
-        Graph<Object, Double> directGraph = directGraph(Data.SP);
-        Map<Object, Double> paths = directGraph.shortestPath("A");
-        System.out.println(paths);
+        Graph<Object, Double> directGraph = directGraph(Data.BF_SP);
+        Map<Object, Graph.PathInfo<Object, Double>> path = directGraph.shortestPath("A");
+        System.out.println(path);
     }
 
     public static void test4() {
