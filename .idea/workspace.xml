@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a16a248f-2385-428d-91c6-04345c5920af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_10_trie/Trie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Graph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Graph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/ListGraph.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/ListGraph.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_09_graph/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RunManager" selected="Application.Trie">
     <configuration name="IsBalancedTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._00_leetcode._05_tree.IsBalancedTree" />
       <module name="ds&amp;algo25" />
@@ -112,31 +110,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._03_linkedlist.Main" />
+    <configuration name="Trie" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._10_trie.Trie" />
       <module name="ds&amp;algo25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._03_linkedlist.singly.*" />
+          <option name="PATTERN" value="ca.bytetube._10_trie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ds&amp;algo25" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._06_tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ca.bytetube._06_tree" />
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._06_tree.Main" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -159,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Trie" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.IsBalancedTree" />
         <item itemvalue="JUnit.Main.test2" />
-        <item itemvalue="JUnit.Main.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +175,8 @@
       <workItem from="1729553311786" duration="8691000" />
       <workItem from="1730145191631" duration="2391000" />
       <workItem from="1730324789056" duration="7129000" />
-      <workItem from="1730766469184" duration="9845000" />
+      <workItem from="1730766469184" duration="9940000" />
+      <workItem from="1730939279495" duration="3466000" />
     </task>
     <task id="LOCAL-00001" summary="added avl">
       <created>1727756604179</created>
@@ -258,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1730341078629</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="added graph sp --- bellford &amp; floyed">
+      <created>1730820122242</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1730820122242</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +277,8 @@
     <MESSAGE value="added graph topoSort and mst" />
     <MESSAGE value="added graph test cases" />
     <MESSAGE value="added graph sp --- Dijkstra" />
-    <option name="LAST_COMMIT_MESSAGE" value="added graph sp --- Dijkstra" />
+    <MESSAGE value="added graph sp --- bellford &amp; floyed" />
+    <option name="LAST_COMMIT_MESSAGE" value="added graph sp --- bellford &amp; floyed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
