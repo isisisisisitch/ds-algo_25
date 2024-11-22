@@ -12,6 +12,7 @@ public class Fib {
         return fib0(n - 1) + fib0(n - 2);
     }
 
+
     //递归过程中，数据共享的方法：
     //1.容器作为递归方法的参数进行传递
     //2.把容器改为成员变量
@@ -81,7 +82,7 @@ public class Fib {
     }
 
 
-    public int fib(int n) {
+    public int fib5(int n) {
         if (n <= 1) return n;
 
         int first = 0;
@@ -94,6 +95,16 @@ public class Fib {
 
         return second;
 
+    }
+
+    public int fib(int n) {
+        if (n <= 1) return n;
+        return fib(n, 0, 1);
+    }
+
+    private int fib(int n, int first, int second) {
+        if (n <= 1) return second;
+        return fib(n - 1, second, first + second);
     }
 
 
