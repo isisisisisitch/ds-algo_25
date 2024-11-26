@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a16a248f-2385-428d-91c6-04345c5920af" name="Default Changelist" comment="added hash">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_recursion/Hanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_recursion/PrintAllSubString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_recursion/RecursiveToNonRecursive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_recursion/TailRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_13_backtracking/NQueens.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a16a248f-2385-428d-91c6-04345c5920af" name="Default Changelist" comment="added backtracking">
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_14_divideandconquer/GetMaxValueFromArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_14_divideandconquer/LeftSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_14_divideandconquer/MaxSubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ds&amp;algo25/ca/bytetube/_01_complexity/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ds&amp;algo25/ca/bytetube/_01_complexity/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_12_recursion/Fib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_12_recursion/Fib.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,36 +39,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Fib.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Hanoi.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.NQueens.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrintAllSubString.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RecursiveToNonRecursive.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TailRecursion.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ca.bytetube._01_complexity.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/dall./Desktop/IdeaProjects/ds&amp;algo25/src/ca/bytetube&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Fib.executor": "Run",
+    "Application.GetMaxValueFromArray.executor": "Run",
+    "Application.Hanoi.executor": "Run",
+    "Application.LeftSum.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.NQueens.executor": "Run",
+    "Application.PrintAllSubString.executor": "Run",
+    "Application.RecursiveToNonRecursive.executor": "Run",
+    "Application.TailRecursion.executor": "Run",
+    "Application.ca.bytetube._01_complexity.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/dall./Desktop/IdeaProjects/ds&algo25/src/ca/bytetube",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ca.bytetube._09_graph" />
@@ -92,13 +90,26 @@
       <recent name="ca.bytetube._03_linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NQueens">
-    <configuration name="Hanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._12_recursion.Hanoi" />
+  <component name="RunManager" selected="Application.LeftSum">
+    <configuration name="GetMaxValueFromArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._14_divideandconquer.GetMaxValueFromArray" />
       <module name="ds&amp;algo25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._12_recursion.*" />
+          <option name="PATTERN" value="ca.bytetube._14_divideandconquer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeftSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._14_divideandconquer.LeftSum" />
+      <module name="ds&amp;algo25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._14_divideandconquer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,19 +123,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ca.bytetube._13_backtracking.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrintAllSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._12_recursion.PrintAllSubString" />
-      <module name="ds&amp;algo25" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._12_recursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeftSum" />
+        <item itemvalue="Application.GetMaxValueFromArray" />
         <item itemvalue="Application.NQueens" />
         <item itemvalue="Application.TailRecursion" />
         <item itemvalue="Application.RecursiveToNonRecursive" />
-        <item itemvalue="Application.PrintAllSubString" />
-        <item itemvalue="Application.Hanoi" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +208,9 @@
       <workItem from="1732069968742" duration="614000" />
       <workItem from="1732138199759" duration="12764000" />
       <workItem from="1732224969980" duration="7695000" />
-      <workItem from="1732300190181" duration="598000" />
+      <workItem from="1732300190181" duration="685000" />
+      <workItem from="1732311357082" duration="3605000" />
+      <workItem from="1732580902384" duration="8636000" />
     </task>
     <task id="LOCAL-00001" summary="added avl">
       <created>1727756604179</created>
@@ -312,7 +312,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732138410801</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added recursion_hanoi and tail recursion">
+      <option name="closed" value="true" />
+      <created>1732309847686</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1732309847686</updated>
+    </task>
+    <task id="LOCAL-00016" summary="added backtracking">
+      <option name="closed" value="true" />
+      <created>1732309864113</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1732309864113</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +360,9 @@
     <MESSAGE value="added recursion" />
     <MESSAGE value="nothing changed" />
     <MESSAGE value="added hash" />
-    <option name="LAST_COMMIT_MESSAGE" value="added hash" />
+    <MESSAGE value="added recursion_hanoi and tail recursion" />
+    <MESSAGE value="added backtracking" />
+    <option name="LAST_COMMIT_MESSAGE" value="added backtracking" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

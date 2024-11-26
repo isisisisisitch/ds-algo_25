@@ -19,21 +19,16 @@ public class Fib {
     public int fib1(int n) {
         if (n <= 1) return n;
         int[] arr = new int[n + 1];
-
         arr[1] = 1;
         arr[2] = 1;
-
         return fib1(n, arr);
-
     }
 
     private int fib1(int n, int[] arr) {
         if (arr[n] == 0) {
             arr[n] = fib1(n - 1, arr) + fib1(n - 2, arr);
         }
-
         return arr[n];
-
     }
 
     public int fib2(int n) {
