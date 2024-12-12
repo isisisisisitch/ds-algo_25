@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a16a248f-2385-428d-91c6-04345c5920af" name="Default Changelist" comment="added greedy interview questions">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_16_dynamicprogramming/FindAimInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_16_dynamicprogramming/PuzzleSum.java" afterDir="false" />
+    <list default="true" id="a16a248f-2385-428d-91c6-04345c5920af" name="Default Changelist" comment="added dp interview questions">
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_16_dynamicprogramming/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_16_dynamicprogramming/LIS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_16_dynamicprogramming/MaxSubArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +42,7 @@
   "keyToString": {
     "Application.BestPlan.executor": "Run",
     "Application.ChangeCoins.executor": "Run",
+    "Application.CoinChange.executor": "Run",
     "Application.Fib.executor": "Run",
     "Application.FindAimInArray.executor": "Run",
     "Application.GetMaxValueFromArray.executor": "Run",
@@ -96,13 +98,26 @@
       <recent name="ca.bytetube._03_linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FindAimInArray">
+  <component name="RunManager" selected="Application.CoinChange">
     <configuration name="BestPlan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._15_greedy.BestPlan" />
       <module name="ds&amp;algo25" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ca.bytetube._15_greedy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._16_dynamicprogramming.CoinChange" />
+      <module name="ds&amp;algo25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._16_dynamicprogramming.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,26 +164,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestLexicographicalString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._15_greedy.SmallestLexicographicalString" />
-      <module name="ds&amp;algo25" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._15_greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoinChange" />
         <item itemvalue="Application.FindAimInArray" />
         <item itemvalue="Application.PuzzleSum" />
         <item itemvalue="Application.BestPlan" />
         <item itemvalue="Application.MinCost" />
-        <item itemvalue="Application.SmallestLexicographicalString" />
       </list>
     </recent_temporary>
   </component>
@@ -221,7 +223,8 @@
       <workItem from="1733185743237" duration="11453000" />
       <workItem from="1733261181982" duration="5554000" />
       <workItem from="1733444996733" duration="713000" />
-      <workItem from="1733790522276" duration="8702000" />
+      <workItem from="1733790522276" duration="11758000" />
+      <workItem from="1733937293694" duration="12620000" />
     </task>
     <task id="LOCAL-00001" summary="added avl">
       <created>1727756604179</created>
@@ -363,7 +366,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733196631686</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="added dp interview questions">
+      <option name="closed" value="true" />
+      <created>1733802233352</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1733802233352</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +411,8 @@
     <MESSAGE value="added divide" />
     <MESSAGE value="added greedy" />
     <MESSAGE value="added greedy interview questions" />
-    <option name="LAST_COMMIT_MESSAGE" value="added greedy interview questions" />
+    <MESSAGE value="added dp interview questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="added dp interview questions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
