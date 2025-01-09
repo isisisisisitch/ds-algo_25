@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a16a248f-2385-428d-91c6-04345c5920af" name="Default Changelist" comment="added dp interview questions_02">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_16_dynamicprogramming/LCS.java" afterDir="false" />
+    <list default="true" id="a16a248f-2385-428d-91c6-04345c5920af" name="Default Changelist" comment="added dp interview questions_03">
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_16_dynamicprogramming/Knapsack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_16_dynamicprogramming/LongestCommonSubstring.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +49,7 @@
     "Application.Knapsack.executor": "Run",
     "Application.LCS.executor": "Run",
     "Application.LeftSum.executor": "Run",
+    "Application.LongestCommonSubstring.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MinCost.executor": "Debug",
     "Application.NQueens.executor": "Run",
@@ -58,6 +60,7 @@
     "Application.SmallestLexicographicalString.executor": "Run",
     "Application.TailRecursion.executor": "Run",
     "Application.ca.bytetube._01_complexity.Main.executor": "Run",
+    "Application.ca.bytetube._16_dynamicprogramming.Knapsack.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -97,20 +100,7 @@
       <recent name="ca.bytetube._03_linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LCS">
-    <configuration name="BestPlan" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._15_greedy.BestPlan" />
-      <module name="ds&amp;algo25" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._15_greedy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ca.bytetube._16_dynamicprogramming.Knapsack">
     <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._16_dynamicprogramming.CoinChange" />
       <module name="ds&amp;algo25" />
@@ -124,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindAimInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._16_dynamicprogramming.FindAimInArray" />
+    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._15_greedy.Knapsack" />
       <module name="ds&amp;algo25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._16_dynamicprogramming.*" />
+          <option name="PATTERN" value="ca.bytetube._15_greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,8 +140,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PuzzleSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._16_dynamicprogramming.PuzzleSum" />
+    <configuration name="LongestCommonSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._16_dynamicprogramming.LongestCommonSubstring" />
+      <module name="ds&amp;algo25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._16_dynamicprogramming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ca.bytetube._16_dynamicprogramming.Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._16_dynamicprogramming.Knapsack" />
       <module name="ds&amp;algo25" />
       <extension name="coverage">
         <pattern>
@@ -165,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ca.bytetube._16_dynamicprogramming.Knapsack" />
+        <item itemvalue="Application.Knapsack" />
+        <item itemvalue="Application.LongestCommonSubstring" />
         <item itemvalue="Application.LCS" />
         <item itemvalue="Application.CoinChange" />
-        <item itemvalue="Application.FindAimInArray" />
-        <item itemvalue="Application.PuzzleSum" />
-        <item itemvalue="Application.BestPlan" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +229,7 @@
       <workItem from="1733937293694" duration="15430000" />
       <workItem from="1734730055509" duration="3598000" />
       <workItem from="1736190795942" duration="2475000" />
-      <workItem from="1736199885469" duration="7510000" />
+      <workItem from="1736199885469" duration="18915000" />
     </task>
     <task id="LOCAL-00001" summary="added avl">
       <created>1727756604179</created>
@@ -384,7 +387,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733974690365</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="added dp interview questions_03">
+      <option name="closed" value="true" />
+      <created>1736219235514</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1736219235514</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +434,8 @@
     <MESSAGE value="added greedy interview questions" />
     <MESSAGE value="added dp interview questions" />
     <MESSAGE value="added dp interview questions_02" />
-    <option name="LAST_COMMIT_MESSAGE" value="added dp interview questions_02" />
+    <MESSAGE value="added dp interview questions_03" />
+    <option name="LAST_COMMIT_MESSAGE" value="added dp interview questions_03" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
