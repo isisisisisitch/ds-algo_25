@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a16a248f-2385-428d-91c6-04345c5920af" name="Default Changelist" comment="added dp interview questions_03">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_16_dynamicprogramming/Knapsack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_16_dynamicprogramming/LongestCommonSubstring.java" afterDir="false" />
+    <list default="true" id="a16a248f-2385-428d-91c6-04345c5920af" name="Default Changelist" comment="added dp interview questions_04">
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sequence/BruteForce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sequence/KMP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sequence/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,12 +41,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.BestPlan.executor": "Run",
+    "Application.BruteForce.executor": "Run",
     "Application.ChangeCoins.executor": "Run",
     "Application.CoinChange.executor": "Run",
     "Application.Fib.executor": "Run",
     "Application.FindAimInArray.executor": "Run",
     "Application.GetMaxValueFromArray.executor": "Run",
     "Application.Hanoi.executor": "Run",
+    "Application.KMP.executor": "Run",
     "Application.Knapsack.executor": "Run",
     "Application.LCS.executor": "Run",
     "Application.LeftSum.executor": "Run",
@@ -93,20 +96,33 @@
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_06_tree" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ca.bytetube._17_sequence" />
       <recent name="ca.bytetube._09_graph" />
       <recent name="ca.bytetube._00_leetcode._02_list" />
       <recent name="ca.bytetube._03_linkedlist.doubly" />
       <recent name="ca.bytetube._03_linkedlist.singly" />
-      <recent name="ca.bytetube._03_linkedlist" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ca.bytetube._16_dynamicprogramming.Knapsack">
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._16_dynamicprogramming.CoinChange" />
+  <component name="RunManager" selected="Application.KMP">
+    <configuration name="BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sequence.BruteForce" />
       <module name="ds&amp;algo25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._16_dynamicprogramming.*" />
+          <option name="PATTERN" value="ca.bytetube._17_sequence.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sequence.KMP" />
+      <module name="ds&amp;algo25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._17_sequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,25 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LCS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._16_dynamicprogramming.LCS" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sequence.Main" />
       <module name="ds&amp;algo25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._16_dynamicprogramming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LongestCommonSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._16_dynamicprogramming.LongestCommonSubstring" />
-      <module name="ds&amp;algo25" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._16_dynamicprogramming.*" />
+          <option name="PATTERN" value="ca.bytetube._17_sequence.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KMP" />
+        <item itemvalue="Application.BruteForce" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ca.bytetube._16_dynamicprogramming.Knapsack" />
         <item itemvalue="Application.Knapsack" />
-        <item itemvalue="Application.LongestCommonSubstring" />
-        <item itemvalue="Application.LCS" />
-        <item itemvalue="Application.CoinChange" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +232,8 @@
       <workItem from="1733937293694" duration="15430000" />
       <workItem from="1734730055509" duration="3598000" />
       <workItem from="1736190795942" duration="2475000" />
-      <workItem from="1736199885469" duration="18915000" />
+      <workItem from="1736199885469" duration="18934000" />
+      <workItem from="1736809665058" duration="8282000" />
     </task>
     <task id="LOCAL-00001" summary="added avl">
       <created>1727756604179</created>
@@ -395,7 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736219235514</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="added dp interview questions_04">
+      <option name="closed" value="true" />
+      <created>1736392298952</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1736392298952</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -435,7 +447,8 @@
     <MESSAGE value="added dp interview questions" />
     <MESSAGE value="added dp interview questions_02" />
     <MESSAGE value="added dp interview questions_03" />
-    <option name="LAST_COMMIT_MESSAGE" value="added dp interview questions_03" />
+    <MESSAGE value="added dp interview questions_04" />
+    <option name="LAST_COMMIT_MESSAGE" value="added dp interview questions_04" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
