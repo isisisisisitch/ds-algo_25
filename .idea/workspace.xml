@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a16a248f-2385-428d-91c6-04345c5920af" name="Default Changelist" comment="added dp interview questions_04">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sequence/BruteForce.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sequence/KMP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_17_sequence/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a16a248f-2385-428d-91c6-04345c5920af" name="Default Changelist" comment="added kmp" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -233,7 +228,7 @@
       <workItem from="1734730055509" duration="3598000" />
       <workItem from="1736190795942" duration="2475000" />
       <workItem from="1736199885469" duration="18934000" />
-      <workItem from="1736809665058" duration="8282000" />
+      <workItem from="1736809665058" duration="8299000" />
     </task>
     <task id="LOCAL-00001" summary="added avl">
       <created>1727756604179</created>
@@ -407,7 +402,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736392298952</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="added kmp">
+      <option name="closed" value="true" />
+      <created>1736823939867</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1736823939867</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +451,8 @@
     <MESSAGE value="added dp interview questions_02" />
     <MESSAGE value="added dp interview questions_03" />
     <MESSAGE value="added dp interview questions_04" />
-    <option name="LAST_COMMIT_MESSAGE" value="added dp interview questions_04" />
+    <MESSAGE value="added kmp" />
+    <option name="LAST_COMMIT_MESSAGE" value="added kmp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
