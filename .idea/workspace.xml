@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a16a248f-2385-428d-91c6-04345c5920af" name="Default Changelist" comment="added kmp" />
+    <list default="true" id="a16a248f-2385-428d-91c6-04345c5920af" name="Default Changelist" comment="Palindrome">
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/BubbleSort2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/BubbleSort3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/SelcetionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/utils/Asserts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/utils/Integers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/utils/Times.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,6 +72,7 @@
     "Application.TailRecursion.executor": "Run",
     "Application.ca.bytetube._01_complexity.Main.executor": "Run",
     "Application.ca.bytetube._16_dynamicprogramming.Knapsack.executor": "Run",
+    "Application.ca.bytetube._19_sort.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -67,7 +81,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/dall./Desktop/IdeaProjects/ds&algo25/src/ca/bytetube",
+    "last_opened_file_path": "/Users/dall./Desktop/IdeaProjects/ds&algo25/src/ca/bytetube/_19_sort",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -84,21 +98,21 @@
       <recent name="ca.bytetube._09_graph" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ca/bytetube/_19_sort" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_09_graph" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_07_avl" />
       <recent name="$PROJECT_DIR$/src/ca/bytetube/_00_leetcode" />
-      <recent name="$PROJECT_DIR$/src/ca/bytetube/_06_tree" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ca.bytetube._19_sort" />
       <recent name="ca.bytetube._17_sequence" />
       <recent name="ca.bytetube._09_graph" />
       <recent name="ca.bytetube._00_leetcode._02_list" />
       <recent name="ca.bytetube._03_linkedlist.doubly" />
-      <recent name="ca.bytetube._03_linkedlist.singly" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.KMP">
+  <component name="RunManager" selected="Application.ca.bytetube._19_sort.Main">
     <configuration name="BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sequence.BruteForce" />
       <module name="ds&amp;algo25" />
@@ -118,19 +132,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ca.bytetube._17_sequence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Knapsack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._15_greedy.Knapsack" />
-      <module name="ds&amp;algo25" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._15_greedy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,13 +165,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ca.bytetube._19_sort.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._19_sort.Main" />
+      <module name="ds&amp;algo25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._19_sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ca.bytetube._19_sort.Main" />
         <item itemvalue="Application.KMP" />
         <item itemvalue="Application.BruteForce" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ca.bytetube._16_dynamicprogramming.Knapsack" />
-        <item itemvalue="Application.Knapsack" />
       </list>
     </recent_temporary>
   </component>
@@ -229,6 +243,7 @@
       <workItem from="1736190795942" duration="2475000" />
       <workItem from="1736199885469" duration="18934000" />
       <workItem from="1736809665058" duration="8299000" />
+      <workItem from="1737414334062" duration="10115000" />
     </task>
     <task id="LOCAL-00001" summary="added avl">
       <created>1727756604179</created>
@@ -410,7 +425,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736823939867</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Palindrome">
+      <option name="closed" value="true" />
+      <created>1737414393270</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1737414393270</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -452,7 +475,8 @@
     <MESSAGE value="added dp interview questions_03" />
     <MESSAGE value="added dp interview questions_04" />
     <MESSAGE value="added kmp" />
-    <option name="LAST_COMMIT_MESSAGE" value="added kmp" />
+    <MESSAGE value="Palindrome" />
+    <option name="LAST_COMMIT_MESSAGE" value="Palindrome" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
