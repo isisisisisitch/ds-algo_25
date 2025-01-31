@@ -1,4 +1,4 @@
-package ca.bytetube._19_sort;
+package ca.bytetube._19_sort.cmp;
 
 public class BinarySearch {
     public static void main(String[] args) {

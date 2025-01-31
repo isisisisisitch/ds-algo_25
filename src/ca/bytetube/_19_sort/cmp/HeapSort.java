@@ -1,6 +1,4 @@
-package ca.bytetube._19_sort;
-
-import ca.bytetube._08_heap.Heap;
+package ca.bytetube._19_sort.cmp;
 
 public class HeapSort<T extends Comparable<T>> extends Sort<T> {
     private int size;

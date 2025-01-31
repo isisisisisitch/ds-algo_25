@@ -1,5 +1,9 @@
 package ca.bytetube._19_sort;
 
+import ca.bytetube._19_sort.cmp.MergeSort;
+import ca.bytetube._19_sort.cmp.QuickSort;
+import ca.bytetube._19_sort.cmp.ShellSort;
+import ca.bytetube._19_sort.cmp.Sort;
 import ca.bytetube._19_sort.utils.Asserts;
 import ca.bytetube._19_sort.utils.Integers;
 
@@ -8,7 +12,12 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        Integer[] array = Integers.random(1000000, 1, 20000000);
+        Integer[] array = Integers.random(100000, 1, 20000000);
+        Sort<Integer> sort = new ShellSort<>();
+        System.out.println( Arrays.toString(array));
+        sort.sort(array);
+        System.out.println( Arrays.toString(array));
+
        // System.out.println( Arrays.toString(array));
 //        Sort<Integer> sort = new MergeSort<>();
 //        sort.sort(array);
@@ -25,7 +34,8 @@ public class Main {
 //                new InsertionSort2(),
 //                new InsertionSort3()
                 new MergeSort(),
-                new QuickSort()
+                new QuickSort(),
+                new ShellSort()
 
         );
 

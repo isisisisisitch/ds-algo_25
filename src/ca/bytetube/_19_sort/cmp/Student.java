@@ -1,4 +1,4 @@
-package ca.bytetube._19_sort;
+package ca.bytetube._19_sort.cmp;
 
 public class Student implements Comparable<Student>{
     public int score;

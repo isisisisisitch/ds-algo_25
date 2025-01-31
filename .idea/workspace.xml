@@ -4,11 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a16a248f-2385-428d-91c6-04345c5920af" name="Default Changelist" comment="sort_02">
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/QuickSort.java" afterDir="false" />
+    <list default="true" id="a16a248f-2385-428d-91c6-04345c5920af" name="Default Changelist" comment="sort_03">
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/cmp/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/uncmp/BucketSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/uncmp/CountingSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/cmp/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/cmp/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/BubbleSort2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/cmp/BubbleSort2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/BubbleSort3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/cmp/BubbleSort3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/cmp/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/cmp/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/InsertionSort2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/cmp/InsertionSort2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/InsertionSort3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/cmp/InsertionSort3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/cmp/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/cmp/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/SelcetionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/cmp/SelcetionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/cmp/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ca/bytetube/_19_sort/cmp/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +57,10 @@
     "Application.BestPlan.executor": "Run",
     "Application.BinarySearch.executor": "Run",
     "Application.BruteForce.executor": "Run",
+    "Application.BucketSort.executor": "Run",
     "Application.ChangeCoins.executor": "Run",
     "Application.CoinChange.executor": "Run",
+    "Application.CountingSort.executor": "Run",
     "Application.Fib.executor": "Run",
     "Application.FindAimInArray.executor": "Run",
     "Application.GetMaxValueFromArray.executor": "Run",
@@ -105,13 +121,13 @@
       <recent name="ca.bytetube._03_linkedlist.doubly" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ca.bytetube._19_sort.Main">
+  <component name="RunManager" selected="Application.BucketSort">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._19_sort.BinarySearch" />
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._19_sort.cmp.BinarySearch" />
       <module name="ds&amp;algo25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._19_sort.*" />
+          <option name="PATTERN" value="ca.bytetube._19_sort.cmp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +135,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sequence.BruteForce" />
+    <configuration name="BucketSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._19_sort.uncmp.BucketSort" />
       <module name="ds&amp;algo25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._17_sequence.*" />
+          <option name="PATTERN" value="ca.bytetube._19_sort.uncmp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountingSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ca.bytetube._19_sort.uncmp.CountingSort" />
+      <module name="ds&amp;algo25" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ca.bytetube._19_sort.uncmp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,25 +174,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ca.bytetube._17_sequence.Main" />
-      <module name="ds&amp;algo25" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ca.bytetube._17_sequence.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ca.bytetube._19_sort.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ca.bytetube._19_sort.Main" />
       <module name="ds&amp;algo25" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ca.bytetube._19_sort.*" />
+          <option name="PATTERN" value="ca.bytetube._19_sort.cmp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BucketSort" />
+        <item itemvalue="Application.CountingSort" />
         <item itemvalue="Application.ca.bytetube._19_sort.Main" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.KMP" />
-        <item itemvalue="Application.BruteForce" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +258,8 @@
       <workItem from="1737732330049" duration="477000" />
       <workItem from="1737732864595" duration="1252000" />
       <workItem from="1737757672327" duration="323000" />
-      <workItem from="1738184054308" duration="10878000" />
+      <workItem from="1738184054308" duration="12382000" />
+      <workItem from="1738278524148" duration="10874000" />
     </task>
     <task id="LOCAL-00001" summary="added avl">
       <created>1727756604179</created>
@@ -448,7 +465,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737754344169</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="sort_03">
+      <option name="closed" value="true" />
+      <created>1738207700132</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1738207700132</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -466,7 +491,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added Monotonic Queue" />
     <MESSAGE value="added binary heap" />
     <MESSAGE value="added graph build" />
     <MESSAGE value="added graph bfs &amp; dfs" />
@@ -491,7 +515,8 @@
     <MESSAGE value="Palindrome" />
     <MESSAGE value="sort_01" />
     <MESSAGE value="sort_02" />
-    <option name="LAST_COMMIT_MESSAGE" value="sort_02" />
+    <MESSAGE value="sort_03" />
+    <option name="LAST_COMMIT_MESSAGE" value="sort_03" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -523,7 +548,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ca/bytetube/_19_sort/Main.java</url>
-          <line>35</line>
+          <line>45</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>

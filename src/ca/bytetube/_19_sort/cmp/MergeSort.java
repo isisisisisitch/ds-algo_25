@@ -1,4 +1,4 @@
-package ca.bytetube._19_sort;
+package ca.bytetube._19_sort.cmp;
 
 public class MergeSort<T extends Comparable<T>> extends Sort<T> {
     private T[] leftArray;
